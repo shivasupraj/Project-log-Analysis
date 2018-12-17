@@ -17,7 +17,7 @@ The tool produces answers to the following three questions based on the data in 
 5. Download the sql data from [here](https://d17h27t6h515a5.cloudfront.net/topher/2016/August/57b5f748_newsdata/newsdata.zip)
 
 ## Instructions
-* Go to the vagrant sub directory from your terminal and type vagrant up, this will cause the vagrant to download and install the Linux Operating System.
+* Go to the vagrant sub directory from your terminal and type `vagrant up`, this will cause the vagrant to download and install the Linux Operating System.
 * Now run `vagrant ssh` to login to the newly installed Linux virtual machine.
 * Now run `cd /vagrant` and go inside the vagrant folder, remember that doing `ls` won't display the vagrant folder.
 * Now extract the sql data and put the .sql file inside the vagrant folder so that it can be shared with the Virtual machine.
